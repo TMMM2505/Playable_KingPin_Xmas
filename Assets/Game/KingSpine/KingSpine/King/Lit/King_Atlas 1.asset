@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: King_Atlas 1
+  m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
+  atlasFile: {fileID: 4900000, guid: 42734c0e3dccde34a9f5a9937b1e72bb, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 31aa0210c7f5c104fa8a53323260fc76, type: 2}
+  - {fileID: 2100000, guid: 23e071bb5c19a804ca9e986778ad18aa, type: 2}
+  - {fileID: 2100000, guid: 7cd24f981b13842429a28bed819e4c99, type: 2}
+  - {fileID: 2100000, guid: 2bca990b5a69d64438da31878ae0d0db, type: 2}
+  - {fileID: 2100000, guid: e3ed130ff39b55447bb86e45ae260516, type: 2}
+  - {fileID: 2100000, guid: 353002d5a6a0ba2459c5ec2f0977d5be, type: 2}
+  - {fileID: 2100000, guid: 9e0a8955085b96c499a997b8c61c6e52, type: 2}
