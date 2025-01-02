@@ -1,0 +1,6 @@
+Hand.png
+size:465,917
+filter:Linear,Linear
+pma:true
+Layer_93
+bounds:2,2,461,913

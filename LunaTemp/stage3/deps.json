@@ -1,0 +1,243 @@
+{
+  "ignores": [
+    "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/DOTween/Modules/DOTweenModuleAudio.cs",
+    "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/DOTween/Modules/DOTweenModulePhysics.cs",
+    "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/DOTween/Modules/DOTweenModulePhysics2D.cs",
+    "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/DOTween/Modules/DOTweenModuleSprite.cs",
+    "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/DOTween/Modules/DOTweenModuleUI.cs",
+    "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/DOTween/Modules/DOTweenModuleUnityVersion.cs",
+    "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/Legacy/SpriteAttacher.cs",
+    "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/ISkeletonAnimation.cs",
+    "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AtlasUtilities.cs",
+    "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AttachmentCloneExtensions.cs",
+    "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AttachmentRegionExtensions.cs",
+    "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/SkeletonExtensions.cs",
+    "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/TimelineExtensions.cs"
+  ],
+  "groups": [
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/DOTween/Modules/DOTweenModuleAudio.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/DOTween/Modules/DOTweenModuleEPOOutline.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/DOTween/Modules/DOTweenModulePhysics.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/DOTween/Modules/DOTweenModulePhysics2D.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/DOTween/Modules/DOTweenModuleSprite.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/DOTween/Modules/DOTweenModuleUI.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/DOTween/Modules/DOTweenModuleUnityVersion.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/DOTween/Modules/DOTweenModuleUtils.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Character/AnimKing.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Character/King.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Element/Bag.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Other/Constant.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonAnimation.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Other Examples/Animation Tester/SpineAnimationTesterTool.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/ISkeletonAnimation.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Goblins.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Mix and Match Character Customize/EquipSystemExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Mix and Match Character Customize/EquipAssetExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Mix and Match Character Customize/EquipButtonExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataAsset.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/MaterialReplacementExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/AtlasAssetBase.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Mix and Match Character Customize/EquipsVisualsComponentExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/SpineAttributes.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/FootSoldierExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderer.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/RenderTextureFadeoutExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/SkeletonRenderTexture/SkeletonRenderTextureFadeout.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/SkeletonRenderTexture/SkeletonRenderTextureBase.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/SkeletonRenderTexture/SkeletonGraphicRenderTexture.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonGraphic.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Getting Started Scripts/SpineboyBeginnerViewGraphic.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Getting Started Scripts/SpineboyBeginnerModel.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Getting Started Scripts/SpineboyBeginnerInput.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Getting Started Scripts/SpineboyBeginnerView.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/AnimationReferenceAsset.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/AttackSpineboy.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/SpineGauge.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Getting Started Scripts/Raptor.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Getting Started Scripts/SpineBlinkPlayer.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Getting Started Scripts/TransitionDictionaryExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Mecanim as Logic/SkeletonAnimationHandleExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Getting Started Scripts/BasicPlatformerController.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/HeroEffectsHandlerExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Mecanim as Logic/DummyMecanimControllerExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Mecanim as Logic/MecanimToAnimationHandleExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/SpineboyFreeze.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/SpineboyPole.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderSeparator/SkeletonRenderSeparator.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderSeparator/SkeletonPartsRenderer.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Mesh Generation/MeshGenerator.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/Legacy/SpriteAttacher.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/Sample VertexEffects/JitterEffectExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/Sample VertexEffects/TwoByTwoTransformEffectExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/SkeletonAnimationMulti/SkeletonAnimationMulti.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Mesh Generation/SkeletonRendererInstruction.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Mesh Generation/MeshRendererBuffers.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Mesh Generation/DoubleBuffered.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Mesh Generation/SpineMesh.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/SkeletonExtensions.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimationComplete.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/SpineboyPoleGraphic.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimation.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimationEnd.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/EventDataReferenceAsset.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Getting Started Scripts/SpineboyTargetControllerGraphic.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/MixAndMatchGraphic.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AtlasUtilities.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Mix and Match Character Customize/MixAndMatchSkinsExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Mix and Match Character Customize/MixAndMatchSkinsButtonExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/MixAndMatch.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Following/BoundingBoxFollower.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtility.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/SkeletonUtility Modules/SkeletonRagdoll.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/SkeletonUtility Modules/SkeletonRagdoll2D.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/RaggedySpineboy.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtilityBone.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/SkeletonUtility Modules/SkeletonUtilityGroundConstraint.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtilityConstraint.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/SkeletonUtility Modules/SkeletonUtilityEyeConstraint.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/SkeletonUtility Modules/SkeletonUtilityKinematicShadow.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Following/BoundingBoxFollowerGraphic.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AttachmentCloneExtensions.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AttachmentRegionExtensions.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/OutlineSkeletonGraphic.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/SkeletonGraphicMirror.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/SkeletonGraphicPlayAnimationAtEvent.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/SpawnSkeletonGraphicExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Following/BoneFollowerGraphic.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Following/BoneFollower.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonRootMotion.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonRootMotionBase.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/RootMotionDeltaCompensation.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonMecanimRootMotion.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonMecanim.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/TimelineExtensions.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials/SkeletonGraphicCustomMaterials.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/ActivateBasedOnFlipDirection.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Internal/SkeletonSubmeshGraphic.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/BlendModeMaterials.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/SkeletonRenderTexture/SkeletonRenderTexture.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/MathUtilities.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/Ghost/SkeletonGhost.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/Ghost/SkeletonGhostRenderer.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/Legacy/AtlasRegionAttacher.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/SpineAtlasAsset.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/RuntimeLoadFromExportsExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/OnDemandTextureLoader.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/RenderExistingMesh.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Following/PointFollower.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials/SkeletonRendererCustomMaterials.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Getting Started Scripts/SpineBeginnerTwo.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Getting Started Scripts/SpineboyTargetController.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/HandleEventWithAudioExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/BoneLocalOverride.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/CombinedSkin.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/SkeletonColorInitialize.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/SlotTintBlackFollower.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/SpineEventUnityHandler.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/SpawnFromSkeletonDataExample.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/SpineboyBodyTilt.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/SpineboyFootplanter.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/SpineboyFacialExpression.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/SpineSpriteAtlasAsset.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataCompatibility.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataModifierAsset.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/MecanimAnimationMatchModifier/AnimationMatchModifierAsset.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/BlendModeMaterialsAsset.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/RegionlessAttachmentLoader.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/SkeletonAnimationFixedTimestep.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Spineboy.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineEvent.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Element/Coin.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Element/Pin.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Other/InputReceiver.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Element/SoundClick.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Other/AnchorGameObject.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Other/CameraViewPortHandle.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/DraggableTransform.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Getting Started Scripts/ConstrainedCamera.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/HurtFlashEffect.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/MaterialPropertyBlockExample.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/ReloadSceneOnKeyDown.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Rotator.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/RenderCombinedMesh.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Scripts/Sample Components/SetRigidbodySolverIterations.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/EditorSkeletonPlayer.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowLocationRigidbody.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowLocationRigidbody2D.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowSkeletonUtilityRootRotation.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Modules/TK2D/SpriteCollectionAttachmentLoader.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/BuildUtilities.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/MaterialChecks.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/SettingsTriState.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineTrackEntryEnd.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/Packages/Luna Playable Ads/pipeline/templates/LunaCompiler/Scripts/Properties/AssemblyInfo.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/Packages/Luna Playable Ads/pipeline/templates/LunaCompiler/Scripts/Sources/OtherDummyScript.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/Packages/Luna Playable Ads/pipeline/templates/LunaCompiler/Scripts/obj/Debug/.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+    ]
+  ]
+}
