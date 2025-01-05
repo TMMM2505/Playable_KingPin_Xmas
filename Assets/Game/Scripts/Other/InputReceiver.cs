@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class InputReceiver : MonoBehaviour
@@ -15,6 +16,8 @@ public class InputReceiver : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            SoundManager.Ins.PlaySound(Constant.soundClick, false);
+
             // source.Play();
             // if (LevelManager.Ins.IsEndCard)
             // {
@@ -53,8 +56,23 @@ public class InputReceiver : MonoBehaviour
                 if (pin)
                 {
                     pin.ActivePin();
+                    if (LevelManager.Ins.CurrentLevel.Hand.gameObject.activeSelf)
+                    {
+                        LevelManager.Ins.CurrentLevel.Hand.gameObject.SetActive(false);
+                        StopAllCoroutines();
+                        StartCoroutine(ResetTutorial());
+                    }
                 }
             }
+        }
+    }
+
+    IEnumerator ResetTutorial()
+    {
+        yield return new WaitForSeconds(2f);
+        if (LevelManager.Ins.CurrentLevel.gameObject)
+        {
+            LevelManager.Ins.CurrentLevel.SetTutorial();
         }
     }
     public void TriggerCTA()
@@ -63,5 +81,4 @@ public class InputReceiver : MonoBehaviour
         // Luna.Unity.Playable.InstallFullGame("https://play.google.com/store/apps/details?id=com.gamee.detective.mansion.pullpin.puzzle");
         // Luna.Unity.LifeCycle.GameEnded();
     }
-
 }

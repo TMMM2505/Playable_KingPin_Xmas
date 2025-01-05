@@ -10,7 +10,12 @@ public class King : MonoBehaviour
 
     private void Start()
     {
-        anim.SetAnim(Constant.animKingIdle, true);
-        bag.OnIdle();
+        SetAnim(Constant.animKingIdle, true);
+    }
+
+    public void SetAnim(string name, bool loop)
+    {
+        anim.SetAnim(name, loop);
+        bag.SetAnim(name);
     }
 }
