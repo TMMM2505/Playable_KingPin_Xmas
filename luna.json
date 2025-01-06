@@ -32752,6 +32752,16 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/Game/KingSpine/Tutorial Hand/Hand.png"
+                    },
+                    {
+                        "maxWidth": 512,
+                        "maxHeight": 269,
+                        "format": "png32",
+                        "compression": "quantQuality",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Game/Sprites/Gameplay_XmasBG_2_Wide.png"
                     }
                 ]
             },

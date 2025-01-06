@@ -1915,7 +1915,7 @@ Deserializers.productName = "Playable_KinhPin_Xmas";
 
 Deserializers.lunaInitializationTime = "12/31/2024 08:38:27";
 
-Deserializers.lunaDaysRunning = "1.9";
+Deserializers.lunaDaysRunning = "5.8";
 
 Deserializers.lunaVersion = "6.2.0";
 
@@ -1971,7 +1971,7 @@ Deserializers.graphicsConstraint = 28;
 
 Deserializers.linearColorSpace = true;
 
-Deserializers.buildID = "5610c7e4-db56-4ebe-89ba-192084cf1fb9";
+Deserializers.buildID = "39d678b0-4536-4e2c-b68c-df3bdc65c52f";
 
 Deserializers.runtimeInitializeOnLoadInfos = [[["UnityEngine","Experimental","Rendering","ScriptableRuntimeReflectionSystemSettings","ScriptingDirtyReflectionSystemInstance"]],[["Unity","VisualScripting","RuntimeVSUsageUtility","RuntimeInitializeOnLoadBeforeSceneLoad"]],[["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"]],[],[["Spine","Unity","AttachmentTools","AtlasUtilities","Init"]]];
 

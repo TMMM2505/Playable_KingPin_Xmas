@@ -1,0 +1,171 @@
+{
+    "BuildID": "39d678b0-4536-4e2c-b68c-df3bdc65c52f",
+    "Command": "project:build",
+    "ProjectID": "7b9b35910aba8f3438b578cf9f26cb49",
+    "ProjectStateHash": "3c72016730b8f9f303228610ef06630b74c1dc10149a98011a442b1f28c22191",
+    "StageCompletedAt": 3,
+    "EarliestFatalError": 0,
+    "StartTime": 1736136058981,
+    "EndTime": 1736136125680,
+    "PlaygroundUserID": 18180,
+    "OperatingSystem": "win32",
+    "UnityPackageID": null,
+    "TargetPlatform": "playground",
+    "UnityVersion": "2022.3.27f1\r",
+    "LunaVersion": "6.2.0",
+    "LogCount": 7,
+    "Logs": [
+        {
+            "LogID": "650df6b8-b3a2-40c1-a54c-51d524248681",
+            "Order": 6,
+            "Timestamp": 1736136127216,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3007",
+            "Description": "You are not using any custom events",
+            "Details": [
+                "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+            ],
+            "DescriptionValues": [
+                ""
+            ],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "42433d39-9198-442f-990d-5a21b42e3b09",
+            "Order": 6,
+            "Timestamp": 1736136127216,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3011",
+            "Description": "You are not using any LunaPlaygroundFields attributes.",
+            "Details": [
+                "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+            ],
+            "DescriptionValues": null,
+            "DetailsValues": null,
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "7477e2e8-f6c1-4e6d-b2e4-2ca3dc9ae1ff",
+            "Order": 0,
+            "Timestamp": 1736136064009,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1006",
+            "Description": "Linear color space is not supported",
+            "Details": [
+                "Due to compatibility reasons, Luna is only able to use Gamma color space for rendering. Please adjust your player settings."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "990a78a1-292d-4877-951d-587fee7c0642",
+            "Order": 1,
+            "Timestamp": 1736136064010,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1014",
+            "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+            "Details": [
+                "Navigate to the Runtime Analysis → Code tab to enable code stripping. Before uploading the playable, please make sure to have played all scenario’s of the playable in a development build to make Runtime Analysis work properly."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "69117161-0ac9-4626-8ca4-8e8e28102419",
+            "Order": 2,
+            "Timestamp": 1736136064022,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1027",
+            "Description": "This DOTween version is not supported",
+            "Details": [
+                "The incorrect DOTween version for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "23a855ec-1050-4c2c-838b-cd6e80ee4d9c",
+            "Order": 3,
+            "Timestamp": 1736136064023,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1015",
+            "Description": "This TMP version is not fully supported",
+            "Details": [
+                "The incorrect Text Mesh Pro for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "14042616-b172-4303-a505-468054fabab2",
+            "Order": 4,
+            "Timestamp": 1736136064024,
+            "Stage": 1,
+            "ErrorType": 3,
+            "ErrorCode": "LP1008",
+            "Description": "There are missing components on HeadCollision.",
+            "Details": [
+                "HeadCollision",
+                "BodyCollision",
+                "GroundCollision"
+            ],
+            "DescriptionValues": [
+                "HeadCollision"
+            ],
+            "DetailsValues": [],
+            "LogCount": 3,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        }
+    ]
+}
