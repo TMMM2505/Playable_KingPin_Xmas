@@ -5,12 +5,19 @@ using UnityEngine;
 
 public class King : MonoBehaviour
 {
-    [SerializeField] private AnimKing anim;
-    [SerializeField] private Bag bag;
-
-    private void Start()
+    private void Awake()
     {
-        anim.SetAnim(Constant.animKingIdle, true);
-        bag.OnIdle();
+        DeviceOrientationDetection.onPortraitMode += KingPortraitTransform;
+        DeviceOrientationDetection.onLandscapeMode += KingLandscapeTransform;
+    }
+    private void KingPortraitTransform()
+    {
+        transform.localScale = Vector3.one * 1.5f;
+        transform.position = new Vector3(transform.position.x, -8.34f, transform.position.z);
+    }
+    private void KingLandscapeTransform()
+    {
+        transform.localScale = Vector3.one * 1.9f;
+        transform.position = new Vector3(transform.position.x, -10.66f, transform.position.z);
     }
 }

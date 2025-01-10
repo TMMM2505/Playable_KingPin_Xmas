@@ -41,9 +41,6 @@
     ],
     [
       "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Character/AnimKing.cs",
-      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Character/King.cs",
-      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Element/Bag.cs",
-      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Other/Constant.cs",
       "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonAnimation.cs",
       "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine Examples/Other Examples/Animation Tester/SpineAnimationTesterTool.cs",
       "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/ISkeletonAnimation.cs",
@@ -166,11 +163,10 @@
       "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineEvent.cs"
     ],
     [
-      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Element/Coin.cs"
-    ],
-    [
-      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Element/Pin.cs",
-      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Other/InputReceiver.cs"
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Character/King.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Other/DeviceOrientationDetection.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Element/LevelMap.cs",
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Element/ZoneSize.cs"
     ],
     [
       "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Element/SoundClick.cs"
@@ -178,6 +174,12 @@
     [
       "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Other/AnchorGameObject.cs",
       "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Other/CameraViewPortHandle.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Other/Constant.cs"
+    ],
+    [
+      "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Other/InputReceiver.cs"
     ],
     [
       "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Other/Pulse.cs"
