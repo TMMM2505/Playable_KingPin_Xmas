@@ -33,13 +33,13 @@ public class LevelManager : Singleton<LevelManager>
 
     public void OnWin()
     {
-        currentLevel.OnWin();
+        //currentLevel.OnWin();
         CameraFollower.Ins.OnEndGame();
     }
 
     public void OnLose()
     {
-        currentLevel.OnLose();
+        //currentLevel.OnLose();
         SoundManager.Ins.StopAll();
         SoundManager.Ins.PlaySound(Constant.soundLose,false);
         CameraFollower.Ins.OnEndGame();

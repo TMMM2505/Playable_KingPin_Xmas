@@ -47,13 +47,4 @@ public class Level : MonoBehaviour
             }
         }
     }
-
-    public void OnWin()
-    {
-        king.SetAnim(Constant.animKingWin, true);
-    }
-    public void OnLose()
-    {
-        king.SetAnim(Constant.animKingLose, true);
-    }
 }

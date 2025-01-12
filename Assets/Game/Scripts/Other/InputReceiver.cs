@@ -3,20 +3,11 @@ using UnityEngine;
 
 public class InputReceiver : MonoBehaviour
 {
-    [SerializeField] private AudioSource source;
-    bool firstClick = true;
-
-    public bool FirstClick
-    {
-        get => firstClick;
-        set => firstClick = value;
-    }
-
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            SoundManager.Ins.PlaySound(Constant.soundClick, false);
+            //SoundManager.Ins.PlaySound(Constant.soundClick, false);
 
             // source.Play();
             // if (LevelManager.Ins.IsEndCard)
@@ -77,8 +68,8 @@ public class InputReceiver : MonoBehaviour
     }
     public void TriggerCTA()
     {
-        // Debug.Log("triggerCTA");
-        // Luna.Unity.Playable.InstallFullGame("https://play.google.com/store/apps/details?id=com.gamee.detective.mansion.pullpin.puzzle");
-        // Luna.Unity.LifeCycle.GameEnded();
+        Debug.Log("triggerCTA");
+        Luna.Unity.Playable.InstallFullGame("https://play.google.com/store/apps/details?id=com.gamee.dragon.kingdom.castle.match.story.puzzle&pcampaignid=web_share");
+        Luna.Unity.LifeCycle.GameEnded();
     }
 }

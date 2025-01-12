@@ -9,18 +9,18 @@ public class SoundManager : Singleton<SoundManager>
 
     public void PlaySound(string name, bool loop)
     {
-        Sound s = Array.Find(Sounds, x => x.name == name);
-        if (s == null)
-        {
-            return;
-        }
-        else
-        {
-            AudioSource source = GetAvailableAudioSource();
-            source.clip = s.clip;
-            source.Play();
-            source.loop = loop;
-        }
+        //Sound s = Array.Find(Sounds, x => x.name == name);
+        //if (s == null)
+        //{
+        //    return;
+        //}
+        //else
+        //{
+        //    AudioSource source = GetAvailableAudioSource();
+        //    source.clip = s.clip;
+        //    source.Play();
+        //    source.loop = loop;
+        //}
     }
 
     private AudioSource GetAvailableAudioSource()

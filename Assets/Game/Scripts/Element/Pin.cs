@@ -7,6 +7,8 @@ public class Pin : MonoBehaviour
     [SerializeField] private Transform end;
     [SerializeField] private Transform center;
 
+    [SerializeField] private float speed;
+
     public Transform Center => center;
 
     public void ActivePin()
@@ -15,7 +17,7 @@ public class Pin : MonoBehaviour
         Vector2 direction = end.position - head.position;
         direction.Normalize();
         
-        transform.DOMove((Vector2)transform.position + direction * 5f, 0.5f, false)
+        transform.DOMove((Vector2)transform.position + direction * speed, 0.5f, false)
             .SetEase(Ease.Linear);
         StartCoroutine(DelayDestroy());
     }

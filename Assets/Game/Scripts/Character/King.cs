@@ -1,21 +1,15 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class King : MonoBehaviour
 {
-    [SerializeField] private AnimKing anim;
-    [SerializeField] private Bag bag;
+    [SerializeField] private CharacterRequiredAnim anim;
 
-    private void Start()
+    private void Awake()
     {
-        SetAnim(Constant.animKingIdle, true);
+        LoseTriggerArea.onLose += KingLose;
     }
-
-    public void SetAnim(string name, bool loop)
+    private void KingLose()
     {
-        anim.SetAnim(name, loop);
-        bag.SetAnim(name);
+        anim.SetAnim(Constant.animKingDie, false);
     }
 }

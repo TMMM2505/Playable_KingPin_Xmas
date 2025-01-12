@@ -2,8 +2,11 @@ public class Constant
 {
     public const string animKingIdle = "CollectCoin_Idle";
     public const string animKingWin = "CollectCoin_Win";
-    public const string animKingLose = "CollectCoin_Lose";
-    
+    public const string animKingDie = "Die";
+
+    public const string animKnightDieLava2 = "Die_Lava2";
+
+
     public const string tagCoin = "Coin";
     public const string tagBag = "Bag";
     public const string tagHole = "Hole";

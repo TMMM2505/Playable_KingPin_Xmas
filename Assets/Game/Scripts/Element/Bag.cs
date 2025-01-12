@@ -24,11 +24,6 @@ public class Bag : MonoBehaviour
                 OnWin();
                 break;
             }
-            case Constant.animKingLose:
-            {
-                OnLose();
-                break;
-            }
         }
     }
     public void OnIdle()
