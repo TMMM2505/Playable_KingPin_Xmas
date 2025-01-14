@@ -2,26 +2,26 @@ using UnityEngine;
 
 public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 {
-    private static T m_Ins;
+    private static T instance;
 
-    public static T Ins
+    public static T Instance
     {
         get
         {
-            if (m_Ins == null)
+            if (instance == null)
             {
-                m_Ins = FindObjectOfType<T>();
+                instance = FindObjectOfType<T>();
 
-                if (m_Ins == null)
+                if (instance == null)
                 {
                     var singletonObject = new GameObject();
-                    m_Ins = singletonObject.AddComponent<T>();
+                    instance = singletonObject.AddComponent<T>();
                     singletonObject.name = typeof(T).ToString() + " (Singleton)";
 
                 }
 
             }
-            return m_Ins;
+            return instance;
         }
     }
 

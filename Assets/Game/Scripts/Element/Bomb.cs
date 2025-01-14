@@ -2,14 +2,15 @@ using UnityEngine;
 
 public class Bomb : MonoBehaviour
 {
-    [SerializeField] LayerMask targetLayer;
-
+    [SerializeField] private GameObject explosionFx;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(1 << collision.gameObject.layer == targetLayer.value)
+        if(collision.gameObject.layer == Constant.enemyLayer)
         {
             collision.GetComponentInParent<Knight>().DeathByBomb();
-            Destroy(gameObject);
+            GameManager.Instance.onWin?.Invoke();
+            Instantiate(explosionFx, transform.position, Quaternion.identity);
+            gameObject.SetActive(false);
         }
     }
 }

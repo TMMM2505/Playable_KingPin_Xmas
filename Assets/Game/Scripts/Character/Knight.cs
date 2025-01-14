@@ -1,14 +1,15 @@
-using Spine.Unity;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Knight : MonoBehaviour
+public class Knight : CharacterSpine
 {
-    [SerializeField] SkeletonAnimation skeletonAnim;
-
+    private void Awake()
+    {
+        GameManager.Instance.onLose += AttackKing;
+    }
     internal void DeathByBomb()
     {
-        skeletonAnim.AnimationName = Constant.animKnightDieLava2;
+        SetAnim(Constant.animKnightDieLava2, false);
+    }
+    private void AttackKing()
+    {
+        SetAnim(Constant.animKnightAttack, false);
     }
 }

@@ -7,14 +7,6 @@ public class InputReceiver : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            //SoundManager.Ins.PlaySound(Constant.soundClick, false);
-
-            // source.Play();
-            // if (LevelManager.Ins.IsEndCard)
-            // {
-            //     TriggerCTA();
-            // }
-            // else
             {
                 HandleTarget();
             }
@@ -35,41 +27,11 @@ public class InputReceiver : MonoBehaviour
             if (hits[i].collider && hits[i].collider.GetComponent<Pin>())
             {
                 Pin pin = hits[i].collider.gameObject.GetComponent<Pin>();
-                // if (firstClick)
-                // {
-                //     // if (pin.Tutorial)
-                //     // {
-                //     //     pin.ActivePin();
-                //     //     firstClick = false;
-                //     // }
-                // }
-                // else 
                 if (pin)
                 {
                     pin.ActivePin();
-                    if (LevelManager.Ins.CurrentLevel.Hand.gameObject.activeSelf)
-                    {
-                        LevelManager.Ins.CurrentLevel.Hand.gameObject.SetActive(false);
-                        StopAllCoroutines();
-                        StartCoroutine(ResetTutorial());
-                    }
                 }
             }
         }
-    }
-
-    IEnumerator ResetTutorial()
-    {
-        yield return new WaitForSeconds(2f);
-        if (LevelManager.Ins.CurrentLevel.gameObject)
-        {
-            LevelManager.Ins.CurrentLevel.SetTutorial();
-        }
-    }
-    public void TriggerCTA()
-    {
-        Debug.Log("triggerCTA");
-        Luna.Unity.Playable.InstallFullGame("https://play.google.com/store/apps/details?id=com.gamee.dragon.kingdom.castle.match.story.puzzle&pcampaignid=web_share");
-        Luna.Unity.LifeCycle.GameEnded();
     }
 }

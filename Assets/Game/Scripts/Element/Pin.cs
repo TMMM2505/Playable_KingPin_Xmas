@@ -13,7 +13,7 @@ public class Pin : MonoBehaviour
 
     public void ActivePin()
     {
-        SoundManager.Ins.PlaySound(Constant.soundPinActive, false);
+        SoundManager.Instance.PlaySound(Constant.soundPinActive, false);
         Vector2 direction = end.position - head.position;
         direction.Normalize();
         

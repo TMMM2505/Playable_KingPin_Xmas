@@ -22,6 +22,8 @@ public class InfinityParallaxManager : MonoBehaviour
     private void Awake()
     {
         Init();
+        GameManager.Instance.onLose += StopParallax;
+        GameManager.Instance.onWin += StopParallax;
     }
 
 
