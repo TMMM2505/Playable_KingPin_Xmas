@@ -1,46 +1,77 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class SoundManager : Singleton<SoundManager>
 {
-    public Sound[] Sounds;
-    public List<AudioSource> audioSources = new List<AudioSource>();
+    [SerializeField] private AudioSource sfxObject;
 
-    public void PlaySound(string name, bool loop)
+    [SerializeField] private AudioClip bgTheme;
+    [SerializeField] private AudioClip winSfx;
+    [SerializeField] private AudioClip loseSfx;
+
+    protected List<AudioSource> ongoingSources = new List<AudioSource>();
+
+    private void Awake()
     {
-        //Sound s = Array.Find(Sounds, x => x.name == name);
-        //if (s == null)
-        //{
-        //    return;
-        //}
-        //else
-        //{
-        //    AudioSource source = GetAvailableAudioSource();
-        //    source.clip = s.clip;
-        //    source.Play();
-        //    source.loop = loop;
-        //}
+        PlaySoundFXClip(bgTheme, transform, 1, true);
+
+        GameManager.Instance.onLose += OnLoseAudio;
+        GameManager.Instance.onWin += OnWinAudio;
+    }
+    public void PlaySoundFXClip(AudioClip audioClip, Transform spawnTransform, float volume, bool loop)
+    {
+        //check if clip is already exist or not
+        if(ongoingSources?.Find(x => x.name == audioClip.name) != null)
+        {
+            PlayExistingAudioSourceByName(audioClip.name);
+        }
+        else
+        {
+            //spawn in gameObject
+            AudioSource audioSource = Instantiate(sfxObject, spawnTransform.position, Quaternion.identity);
+            audioSource.transform.SetParent(transform);
+            audioSource.gameObject.name = audioClip.name;
+
+            //set loop
+            audioSource.loop = loop;
+
+            //assign the audioClip
+            audioSource.clip = audioClip;
+
+            //assign volume
+            audioSource.volume = volume;
+
+            //play sound
+            audioSource.Play();
+
+            //get length of sfx clip
+            float clipLength = audioSource.clip.length;
+
+            //add clip to the ongoing sources
+            ongoingSources.Add(audioSource);
+        }
     }
 
-    private AudioSource GetAvailableAudioSource()
+    private void PlayExistingAudioSourceByName(string name)
     {
-        AudioSource availableSource = audioSources.Find(source => !source.isPlaying);
-        if (availableSource == null)
-        {
-            availableSource = gameObject.AddComponent<AudioSource>();
-            audioSources.Add(availableSource);
-        }
-        return availableSource;
+        AudioSource source = ongoingSources.Find(x => x.name == name);
+        source.Play();
     }
 
-    public void StopAll()
+    public void StopSourceByName(string name)
     {
-        foreach (AudioSource source in audioSources)
-        {
-            source.Stop();
-            source.clip = null;
-        }
+        AudioSource source = ongoingSources.Find(x => x.name == name);
+        source.Stop();
+    }
+    private void OnWinAudio()
+    {
+        StopSourceByName(bgTheme.name);
+        PlaySoundFXClip(winSfx, transform, 1, false);
+    }
+    private void OnLoseAudio()
+    {
+        StopSourceByName(bgTheme.name);
+        PlaySoundFXClip(loseSfx, transform, 1, false);
     }
 }
 

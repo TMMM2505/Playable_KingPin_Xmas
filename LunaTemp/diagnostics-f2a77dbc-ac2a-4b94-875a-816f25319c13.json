@@ -1,0 +1,295 @@
+{
+  "BuildID": "f2a77dbc-ac2a-4b94-875a-816f25319c13",
+  "Command": "project:build",
+  "ProjectID": "7b9b35910aba8f3438b578cf9f26cb49",
+  "ProjectStateHash": "43f532a99d16c2339584e6c08a77c8429ab262101c4c84704e05e2fdd479c553",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 3,
+  "StartTime": 1736917519887,
+  "EndTime": 1736917741270,
+  "PlaygroundUserID": 18180,
+  "OperatingSystem": "win32",
+  "UnityPackageID": null,
+  "TargetPlatform": "develop",
+  "UnityVersion": "2022.3.27f1\r",
+  "LunaVersion": "6.2.0",
+  "LogCount": 12,
+  "Logs": [
+    {
+      "LogID": "d3da4d4a-3893-4182-8790-a5455ee4bdd2",
+      "Order": 11,
+      "Timestamp": 1736917743376,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3007",
+      "Description": "You are not using any custom events",
+      "Details": [
+        "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "4c45a3ee-4a90-4c30-b212-ccda294940ba",
+      "Order": 11,
+      "Timestamp": 1736917743377,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3011",
+      "Description": "You are not using any LunaPlaygroundFields attributes.",
+      "Details": [
+        "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+      ],
+      "DescriptionValues": null,
+      "DetailsValues": null,
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "cc5f7825-716b-4ae7-baa2-69d580ba33ba",
+      "Order": 0,
+      "Timestamp": 1736917545652,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1030",
+      "Description": "TMP Font Asset uses unsupported 'Atlas Population Mode'",
+      "Details": [
+        "TMP Font Asset '{0}' uses Atlas Population Mode '{1}' which is not supported"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "LiberationSans SDF - Fallback",
+        "Dynamic"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "21ed0616-7b14-4904-9871-c4d7150cc1af",
+      "Order": 1,
+      "Timestamp": 1736917552543,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1014",
+      "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+      "Details": [
+        "Navigate to the Runtime Analysis → Code tab to enable code stripping. Before uploading the playable, please make sure to have played all scenario’s of the playable in a development build to make Runtime Analysis work properly."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "4c385e93-4465-43f1-a8cd-02f81aafaf61",
+      "Order": 2,
+      "Timestamp": 1736917552544,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1016",
+      "Description": "Extensive usage of ParticleSystem Component",
+      "Details": [
+        "There is extensive usage of the ParticleSystem component.\nExcessive usage of any component can be detrimental to performance on lower and in some cases higher end devices, consider reducing the amount the component is used.\nRecommended count: 10, current count 26."
+      ],
+      "DescriptionValues": [
+        "ParticleSystem"
+      ],
+      "DetailsValues": [
+        "ParticleSystem",
+        "10",
+        "26"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "4addb3d7-4246-4fcd-9cde-a057533980fb",
+      "Order": 3,
+      "Timestamp": 1736917552559,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1027",
+      "Description": "This DOTween version is not supported",
+      "Details": [
+        "The incorrect DOTween version for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "f7e11180-83bf-4b09-9f27-54a290057623",
+      "Order": 4,
+      "Timestamp": 1736917552559,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1015",
+      "Description": "This TMP version is not fully supported",
+      "Details": [
+        "The incorrect Text Mesh Pro for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "66b54da3-3767-448c-8c1c-aa5434d9630a",
+      "Order": 5,
+      "Timestamp": 1736917552559,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1032",
+      "Description": "Package(s) is not supported in Luna",
+      "Details": [
+        "Currently package(s) com.unity.timeline are not supported in Luna. We recommend you to remove it and workaround it's functionality."
+      ],
+      "DescriptionValues": [
+        "com.unity.timeline (1.7.6)"
+      ],
+      "DetailsValues": [
+        "com.unity.timeline"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/Packages\\manifest.json",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "f758c048-108b-41d4-8559-a24bd15f88c4",
+      "Order": 6,
+      "Timestamp": 1736917552564,
+      "Stage": 1,
+      "ErrorType": 3,
+      "ErrorCode": "LP1002",
+      "Description": "Repeat wrap mode used on a texture with non power-of-two dimensions, this might not be rendered correctly.",
+      "Details": [
+        "Repeat wrap mode used on 'LiberationSans SDF Atlas' texture at 'Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset' with non power-of-two dimensions, this might not be rendered correctly."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "LiberationSans SDF Atlas",
+        "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "da75651d-467b-44ee-941f-09d3f4a279ed",
+      "Order": 7,
+      "Timestamp": 1736917741262,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS1061",
+      "Description": "'SkeletonRenderer' does not contain a definition for 'maskMaterials' and no accessible extension method 'maskMaterials' accepting a first argument of type 'SkeletonRenderer' could be found (are you missing a using directive or an assembly reference?)",
+      "Details": [
+        "if (materialsChanged && (this.maskMaterials.AnyMaterialCreated)) {"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 555,
+      "FilePath": "C:\\Users\\Dang Do\\Documents\\Unity Projects\\PlayableKingPin\\Assets\\Spine\\Runtime\\spine-unity\\Components\\SkeletonRenderer.cs",
+      "ClassName": "SkeletonRenderer",
+      "MemberName": "maskMaterials",
+      "Severity": 1
+    },
+    {
+      "LogID": "a88602b0-ac0e-46ff-bdb5-e596a734de70",
+      "Order": 8,
+      "Timestamp": 1736917741269,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS1061",
+      "Description": "'SkeletonRenderer' does not contain a definition for 'maskMaterials' and no accessible extension method 'maskMaterials' accepting a first argument of type 'SkeletonRenderer' could be found (are you missing a using directive or an assembly reference?)",
+      "Details": [
+        "this.maskMaterials = new SpriteMaskInteractionMaterials();"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 556,
+      "FilePath": "C:\\Users\\Dang Do\\Documents\\Unity Projects\\PlayableKingPin\\Assets\\Spine\\Runtime\\spine-unity\\Components\\SkeletonRenderer.cs",
+      "ClassName": "SkeletonRenderer",
+      "MemberName": "maskMaterials",
+      "Severity": 1
+    },
+    {
+      "LogID": "e9d541fc-5cc6-4ffa-a745-8df62a60a1a2",
+      "Order": 9,
+      "Timestamp": 1736917741270,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS0246",
+      "Description": "The type or namespace name 'SpriteMaskInteractionMaterials' could not be found (are you missing a using directive or an assembly reference?)",
+      "Details": [
+        "this.maskMaterials = new SpriteMaskInteractionMaterials();"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 556,
+      "FilePath": "C:\\Users\\Dang Do\\Documents\\Unity Projects\\PlayableKingPin\\Assets\\Spine\\Runtime\\spine-unity\\Components\\SkeletonRenderer.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    }
+  ]
+}

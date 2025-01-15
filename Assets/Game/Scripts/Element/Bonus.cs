@@ -21,7 +21,7 @@ public class Bonus : MonoBehaviour
         {
             if (!isActive)
             {
-                SoundManager.Instance.PlaySound(Constant.soundCoinBonus, false);
+                //SoundManager.Instance.PlaySound(Constant.soundCoinBonus, false);
                 SpawnCoin?.Invoke(amount, bonusType);
                 isActive = true;
             }

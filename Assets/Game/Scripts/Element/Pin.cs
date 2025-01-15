@@ -9,11 +9,13 @@ public class Pin : MonoBehaviour
 
     [SerializeField] private float speed;
 
+    [SerializeField] private AudioClip dragPin;
+
     public Transform Center => center;
 
     public void ActivePin()
     {
-        SoundManager.Instance.PlaySound(Constant.soundPinActive, false);
+        SoundManager.Instance.PlaySoundFXClip(dragPin, transform, 1f, false);
         Vector2 direction = end.position - head.position;
         direction.Normalize();
         

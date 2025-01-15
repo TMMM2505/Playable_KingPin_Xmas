@@ -190,6 +190,11 @@
                 "name": "mecanim-wasm",
                 "excluded": false,
                 "forceIncluded": true
+            },
+            {
+                "name": "physics3d",
+                "excluded": false,
+                "forceIncluded": false
             }
         ],
         "disableRuntimeAnalysisForCode": true,
@@ -9661,6 +9666,46 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/Game/Sprites/background.png"
+                    },
+                    {
+                        "maxWidth": 2048,
+                        "maxHeight": 1994,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Game/KingSpine/KingSpine/King/King.png"
+                    },
+                    {
+                        "maxWidth": 2048,
+                        "maxHeight": 1970,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Game/KingSpine/KingSpine/King/King_2.png"
+                    },
+                    {
+                        "maxWidth": 2048,
+                        "maxHeight": 1574,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Game/KingSpine/KingSpine/King/King_3.png"
+                    },
+                    {
+                        "maxWidth": 2048,
+                        "maxHeight": 2048,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Game/KingSpine/KingSpine/Knight/Knight.png"
                     }
                 ]
             },
