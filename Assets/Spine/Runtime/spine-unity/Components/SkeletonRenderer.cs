@@ -552,11 +552,6 @@ namespace Spine.Unity {
 			} else if (materialsChanged) {
 				meshRenderer.sharedMaterials = rendererBuffers.GetUpdatedSharedMaterialsArray();
 			}
-			if (materialsChanged && (this.maskMaterials.AnyMaterialCreated)) {
-				this.maskMaterials = new SpriteMaskInteractionMaterials();
-			}
-
-			meshGenerator.FillLateVertexData(currentMesh);
 
 			// STEP 4. The UnityEngine.Mesh is ready. Set it as the MeshFilter's mesh. Store the instructions used for that mesh. ===========
 			if (meshFilter)

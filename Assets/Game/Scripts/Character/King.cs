@@ -13,6 +13,9 @@ public class King : CharacterSpine
     {
         GameManager.Instance.onLose += KingLose;
         GameManager.Instance.onWin += KingWin;
+
+        DeviceOrientationDetection.Instance.onPortraitMode += KingPortraitTransform;
+        DeviceOrientationDetection.Instance.onLandscapeMode += KingLandscapeTransform;
     }
     private void Start()
     {
@@ -41,6 +44,34 @@ public class King : CharacterSpine
         SetAnim(Constant.animKingWinLaugh, true);
         SoundManager.Instance.PlaySoundFXClip(laughSfx, transform, 1f, false);
     }
+
+    private void KingPortraitTransform()
+    {
+        if (GameManager.Instance.isWin)
+        {
+            transform.localScale = new Vector3(-1f, 1f, 1f);
+        }
+        else
+        {
+            transform.localScale = Vector3.one;
+        }
+        
+        transform.position = new Vector3(2, transform.position.y, transform.position.z);
+    }
+    private void KingLandscapeTransform()
+    {
+        if (GameManager.Instance.isWin)
+        {
+            transform.localScale = new Vector3(-1f, 1f, 1f) * 1.25f;
+        }
+        else
+        {
+            transform.localScale = Vector3.one * 1.25f;
+        }
+
+        transform.position = new Vector3(2.75f, transform.position.y, transform.position.z);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.layer == Constant.enemyLayer)

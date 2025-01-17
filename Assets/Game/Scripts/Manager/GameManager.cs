@@ -7,6 +7,8 @@ public class GameManager : Singleton<GameManager>
 {
     [SerializeField] float timeWaitEndGame;
 
+    internal bool isWin;
+
     internal Action onLose;
     internal Action onWin;
 
@@ -19,7 +21,7 @@ public class GameManager : Singleton<GameManager>
     }
     private void OnWinGame()
     {
-        
+        isWin = true;
     }
 
     private void OnLoseGame()

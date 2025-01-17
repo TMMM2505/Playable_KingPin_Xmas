@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class DeviceOrientationDetection : Singleton<DeviceOrientationDetection> 
 {
-    protected Action onPortraitMode;
-    protected Action onLandscapeMode;
+    internal Action onPortraitMode;
+    internal Action onLandscapeMode;
     void Update()
     {
         if (Screen.width > Screen.height)
