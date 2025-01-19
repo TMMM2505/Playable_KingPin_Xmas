@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : Singleton<GameManager>   
 {
-    [SerializeField] float timeWaitEndGame;
+    [SerializeField] internal float timeWaitEndGame;
 
-    internal bool isWin;
+    internal bool endGame;
 
     internal Action onLose;
     internal Action onWin;
@@ -19,13 +19,19 @@ public class GameManager : Singleton<GameManager>
         onLose += OnLoseGame;
         onWin += OnWinGame;
     }
+    private void Start()
+    {
+        endGame = false;
+    }
     private void OnWinGame()
     {
-        isWin = true;
+        endGame = true;
     }
 
     private void OnLoseGame()
     {
+        endGame = true;
+
         timeLose++;
 
         StartCoroutine(GameLose());

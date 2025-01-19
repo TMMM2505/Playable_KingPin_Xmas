@@ -3,6 +3,7 @@ using UnityEngine;
 using DG.Tweening;
 using DG.Tweening.Core;
 using DG.Tweening.Plugins.Options;
+using System.Collections;
 
 public class CamFollow : MonoBehaviour
 {
@@ -40,7 +41,7 @@ public class CamFollow : MonoBehaviour
         camPositionDefaut = _myCam.transform.position;
         camSizeCache = camSizeGp1;
 
-        GameManager.Instance.onWin += Follow;
+        GameManager.Instance.onWin += FollowTrigger;
     }
 
     void Update()
@@ -148,8 +149,14 @@ public class CamFollow : MonoBehaviour
         else _myCam.orthographicSize = camSize;
 
     }
-    private void Follow()
+    private void FollowTrigger()
     {
+        StartCoroutine(DelayedFollow(GameManager.Instance.timeWaitEndGame));
+    }
+    private IEnumerator DelayedFollow(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+
         beginFollow = true;
     }
     public void Follow(GameObject objFollow)

@@ -1,32 +1,41 @@
-using System;
-using System.Collections;
-using UnityEngine;
+//using DG.Tweening;
+//using System.Collections;
+//using System.Collections.Generic;
+//using UnityEngine;
 
-public class Hand : MonoBehaviour
-{
-    [SerializeField] private Animator anim;
+//public class Hand : MonoBehaviour
+//{
+//    [SerializeField] PinNormal designatedPin;
+//    [SerializeField] float appearCooldown;
+//    [SerializeField] bool rightSide;
+//    AnimatorComponent animator;
 
-    private void Start()
-    {
-        StartCoroutine(LoopClick());
-    }
+//    public void Awake()
+//    {
+//        animator = this.GetComponentInChildren<AnimatorComponent>();
+//        designatedPin.ActionClick += Disappear;
+//        transform.localScale = Vector3.zero;
+//    }
+//    private void Start()
+//    {
+//        StartCoroutine(HandAppear());
+//    }
+//    public void Disappear(PinNormal pin)
+//    {
+//        gameObject.SetActive(false);
+//    }
 
-    public void SetClick(Vector2 position, Transform parent)
-    {
-        transform.SetParent(parent);
-        transform.position = position;
-        StartCoroutine(LoopClick());
-    }
+//    IEnumerator HandAppear()
+//    {
+//        yield return new WaitForSeconds(appearCooldown);
 
-    void RunAnim()
-    {
-        anim.ResetTrigger("click");
-        anim.SetTrigger("click");
-    }
-    IEnumerator LoopClick()
-    {
-        yield return new WaitForSeconds(1.5f);
-        RunAnim();
-        StartCoroutine(LoopClick());
-    }
-}
+//        if (rightSide)
+//        {
+//            transform.DOScale(new Vector3(-1, 1, 1), 1f).OnComplete(() => Gamemanager.Instance.state = EGameState.GAME_PLAYING);
+//        }
+//        else
+//        {
+//            transform.DOScale(new Vector3(1, 1, 1), 1f).OnComplete(() => Gamemanager.Instance.state = EGameState.GAME_PLAYING);
+//        }
+//    }
+//}

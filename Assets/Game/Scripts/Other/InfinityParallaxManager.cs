@@ -92,6 +92,17 @@ public class InfinityParallaxManager : MonoBehaviour
         if (_parallax != null)
         {
             StopCoroutine(_parallax);
+
+            StartCoroutine(DelayedFadeBG(GameManager.Instance.timeWaitEndGame - .5f));
+        }
+    }
+    private IEnumerator DelayedFadeBG(float timeWait)
+    {
+        yield return new WaitForSeconds(timeWait);
+
+        foreach (var item in _items)
+        {
+            item.GetChild(0).gameObject.SetActive(true);
         }
     }
 }

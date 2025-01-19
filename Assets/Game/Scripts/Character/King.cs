@@ -47,29 +47,29 @@ public class King : CharacterSpine
 
     private void KingPortraitTransform()
     {
-        if (GameManager.Instance.isWin)
+        if (GameManager.Instance.endGame)
         {
+            transform.position = new Vector3(1.6f, transform.position.y, transform.position.z);
             transform.localScale = new Vector3(-1f, 1f, 1f);
         }
         else
         {
+            transform.position = new Vector3(2, transform.position.y, transform.position.z);
             transform.localScale = Vector3.one;
-        }
-        
-        transform.position = new Vector3(2, transform.position.y, transform.position.z);
+        } 
     }
     private void KingLandscapeTransform()
     {
-        if (GameManager.Instance.isWin)
+        if (GameManager.Instance.endGame)
         {
+            transform.position = new Vector3(2.35f, transform.position.y, transform.position.z);
             transform.localScale = new Vector3(-1f, 1f, 1f) * 1.25f;
         }
         else
         {
+            transform.position = new Vector3(2.75f, transform.position.y, transform.position.z);
             transform.localScale = Vector3.one * 1.25f;
         }
-
-        transform.position = new Vector3(2.75f, transform.position.y, transform.position.z);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
