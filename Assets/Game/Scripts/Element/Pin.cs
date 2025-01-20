@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using DG.Tweening;
+using System;
 public class Pin : MonoBehaviour
 {
     [SerializeField] private Transform head;
@@ -13,12 +14,15 @@ public class Pin : MonoBehaviour
 
     public Transform Center => center;
 
+    internal Action onClick;
+
     public void ActivePin()
     {
         SoundManager.Instance.PlaySoundFXClip(dragPin, transform, 1f, false);
         Vector2 direction = end.position - head.position;
         direction.Normalize();
         
+        onClick?.Invoke();   
         transform.DOMove((Vector2)transform.position + direction * speed, 0.5f, false)
             .SetEase(Ease.Linear);
         StartCoroutine(DelayDestroy());

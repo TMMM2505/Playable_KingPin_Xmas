@@ -1,38 +1,38 @@
-report@config:load 26.60
+report@config:load 48.17
 Found a stored user info, but it is no longer valid.
 Permissions were validated successfully.
-report@account:authorize 1545.37
+report@account:authorize 1574.89
 stderr: 'rm' is not recognized as an internal or external command,
 operable program or batch file.
 
 Exporting assets from Unity...............
 
 [ Stage1 ] Assets exported from Unity and staged for further processing
-report@unity:export 12145.64
-report@config:load 31.69
-Using C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/Assets/TextMesh Pro/Fonts/LiberationSans.ttf file to generate an atlas for LiberationSans[53722] font
+report@unity:export 12184.51
+report@config:load 23.04
+Using C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/Assets/TextMesh Pro/Fonts/LiberationSans.ttf file to generate an atlas for LiberationSans[32840] font
   Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
-Combined 97 glyphs into bitmap texture at C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage1/tmp/fonts/LiberationSans-53722/output_0.png (56kb)
+Combined 97 glyphs into bitmap texture at C:/Users/Dang Do/Documents/Unity Projects/PlayableKingPin/LunaTemp/stage1/tmp/fonts/LiberationSans-32840/output_0.png (56kb)
 Found custom rules for texture Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
   {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset","isOverride":true}
+Found custom rules for texture Assets/Game/KingSpine/KingSpine/King/King_2.png
+  {"maxWidth":2048,"maxHeight":1970,"format":"png32","compression":"quantSize","quality":65,"script":"","ext":"","name":"Assets/Game/KingSpine/KingSpine/King/King_2.png","isOverride":true}
 Found custom rules for texture Assets/Game/KingSpine/KingSpine/King/King_3.png
   {"maxWidth":2048,"maxHeight":1574,"format":"png32","compression":"quantSize","quality":65,"script":"","ext":"","name":"Assets/Game/KingSpine/KingSpine/King/King_3.png","isOverride":true}
 Found custom rules for texture Assets/Game/KingSpine/KingSpine/Knight/Knight.png
   {"maxWidth":2048,"maxHeight":2048,"format":"png32","compression":"quantSize","quality":65,"script":"","ext":"","name":"Assets/Game/KingSpine/KingSpine/Knight/Knight.png","isOverride":true}
-Found custom rules for texture Assets/Game/KingSpine/KingSpine/King/King_2.png
-  {"maxWidth":2048,"maxHeight":1970,"format":"png32","compression":"quantSize","quality":65,"script":"","ext":"","name":"Assets/Game/KingSpine/KingSpine/King/King_2.png","isOverride":true}
 Found custom rules for texture Assets/Game/KingSpine/KingSpine/King/King.png
   {"maxWidth":2048,"maxHeight":1994,"format":"png32","compression":"quantSize","quality":65,"script":"","ext":"","name":"Assets/Game/KingSpine/KingSpine/King/King.png","isOverride":true}
 Found custom rules for texture Resources/unity_builtin_extra/Default-Particle
   {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Resources/unity_builtin_extra/Default-Particle","isOverride":true}
 Resources:
 {}
-report@assets:stage2 34435.20
-report@assets:stage3 477.86
+report@assets:stage2 31323.38
+report@assets:stage3 1280.25
 [ Stage2 ] Assets postprocessed and bundled successfully
-report@config:unity 0.25
-report@config:load 21.01
-report@config:unity 0.06
+report@config:unity 0.26
+report@config:load 13.44
+report@config:unity 0.16
 ﻿
 [ error ] $﻿
 Diagnostics gathered successfully
